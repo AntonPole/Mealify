@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Settings"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Switch
+        android:id="@+id/notification_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView"
+        android:layout_marginTop="16dp"
+        android:text="Enable Notifications"
+        android:checked="true"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp" />
+
+    <Switch
+        android:id="@+id/sound_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/notification_switch"
+        android:layout_marginTop="16dp"
+        android:text="Enable Sound"
+        android:checked="true"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp" />
+
+    <Switch
+        android:id="@+id/vibration_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sound_switch"
+        android:layout_marginTop="16dp"
+        android:text="Enable Vibration"
+        android:checked="true"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp" />
+
+    <Switch
+        android:id="@+id/night_mode_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/vibration_switch"
+        android:layout_marginTop="16dp"
+        android:text="Night Mode"
+        android:checked="false"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp" />
+
+    <!-- Add more switches here as needed -->
+
+</RelativeLayout>

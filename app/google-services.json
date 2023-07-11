@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "118754511284",
+    "project_id": "mealify-data-and-registration",
+    "storage_bucket": "mealify-data-and-registration.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:118754511284:android:6be5e0e28197ee4d4ecae1",
+        "android_client_info": {
+          "package_name": "com.example.mealify0807"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "118754511284-5m9nok24utstdilljdtj86l56nsleoqb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTGNLP19rS8sb88Uq5yaSwKwQANz_Za0k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "118754511284-5m9nok24utstdilljdtj86l56nsleoqb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
